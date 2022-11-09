@@ -145,7 +145,7 @@ document.getElementById("demo_12").innerHTML = text;
 let num = "";
 
 for (let i = 0; i < 5; i++) {
-    text += "The number is " + i + "<br>";
+    num += "The number is " + i + "<br>";
 }
 
 document.getElementById("demo_13").innerHTML = num;
@@ -154,7 +154,7 @@ document.getElementById("demo_13").innerHTML = num;
 let num_2 = "";
 let i = 0;
 while (i < 10) {
-    text += "<br>The number is " + i;
+    num_2 += "<br>The number is " + i;
     i++;
 }
 document.getElementById("demo_14").innerHTML = num_2;
