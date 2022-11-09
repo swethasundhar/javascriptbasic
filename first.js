@@ -150,6 +150,15 @@ for (let i = 0; i < 5; i++) {
 
 document.getElementById("demo_13").innerHTML = num;
 
+//js while loop
+let num_2 = "";
+let i = 0;
+while (i < 10) {
+    text += "<br>The number is " + i;
+    i++;
+}
+document.getElementById("demo_14").innerHTML = num_2;
+
 
 
 
