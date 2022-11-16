@@ -12,7 +12,7 @@ function checkAdult(age) {
 }
 
 //find method - returns the value of the first element that passes a test. It executes a function for each array element. 
-const ages1 = [3, 10, 18, 20];
+const ages1 = [3, 10, 20, 18];
 
 document.getElementById("test3").innerHTML = ages1.find(checkAge);
 
