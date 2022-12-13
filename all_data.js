@@ -17,6 +17,7 @@ function allData() {
                     <td>${value.name}</td>
                     <td>${value.email}</td>
                     <td>${value.phone}</td>
+                    <td>${value.gender}</td>
                     <td>${value.date}</td>
                     <td>
                         <button class="btn btn-sm btn-success" onclick="find(${value.id})">

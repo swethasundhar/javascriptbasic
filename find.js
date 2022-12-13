@@ -11,6 +11,7 @@ function find(id) {
             document.getElementById('name').value = value.name
             document.getElementById('email').value = value.email
             document.getElementById('phone').value = value.phone
+            document.getElementById('gender').value = value.gender
             document.getElementById('date').value = value.date
         }
     })
